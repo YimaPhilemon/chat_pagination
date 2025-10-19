@@ -27,6 +27,7 @@ dependencies:
     git:
       url: https://github.com/yourusername/flutter_chat_pagination.git
 Then run:
+```
 
 ```dart
 flutter pub get
