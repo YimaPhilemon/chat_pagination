@@ -1,3 +1,22 @@
+<p align="center">                    
+  <a href="https://img.shields.io/badge/License-MIT-green">
+    <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License">
+  </a>                    
+  <a href="https://github.com/YimaPhilemon/chat_pagination/stargazers">
+    <img src="https://img.shields.io/github/stars/YimaPhilemon/chat_pagination?style=flat&logo=github&colorB=green&label=stars" alt="GitHub stars">
+  </a>                    
+  <a href="https://pub.dev/packages/chat_pagination">
+    <img src="https://img.shields.io/pub/v/chat_pagination.svg?label=pub&color=orange" alt="pub version">
+  </a>                    
+</p>
+                 
+
+<p align="center">                  
+<a href="https://www.buymeacoffee.com/yimaphilemon" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="30px" width= "108px"></a>                  
+</p> 
+
+---
+
 # 🧩 Flutter Chat Pagination
 
 > A lightweight and efficient **chat pagination system** for Flutter — built with **Riverpod** and **FlutterListView** for seamless infinite scrolling, smooth state handling, and full UI flexibility.
