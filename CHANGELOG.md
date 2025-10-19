@@ -1,3 +1,9 @@
+## 0.0.2
+
+* updated README for pub.dev compatibility.
+
+---
+
 ## 0.0.1
 
 ### 🎉 Initial Release

@@ -50,7 +50,7 @@ Or
 
 ```yaml
 dependencies:
-  flutter_chat_pagination: ^0.0.1
+  flutter_chat_pagination: ^0.0.2
 ```
 
 Then run:
