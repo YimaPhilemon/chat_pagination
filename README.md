@@ -25,12 +25,20 @@ Add the dependency in your `pubspec.yaml`:
 dependencies:
   flutter_chat_pagination:
     git:
-      url: https://github.com/yourusername/flutter_chat_pagination.git
-Then run:
+      url: https://github.com/YimaPhilemon/chat_pagination.git
 ```
+Or 
+
+```yaml
+dependencies:
+  flutter_chat_pagination: ^0.0.1
+```
+
+Then run:
 
 ```dart
 flutter pub get
+```
 🧱 Architecture Overview
 This package is built around three core layers:
 
@@ -45,12 +53,15 @@ ChatPaginationNotifier	StateNotifier	Manages message state, loading, and paginat
 ```dart
 import 'package:flutter_chat_pagination/chat_pagination_controller.dart';
 import 'package:flutter_chat_pagination/chat_pagination_view.dart';
+```
+
 2. Initialize in your main app
 
 ```dart
 void main() {
   runApp(const ProviderScope(child: ChatApp()));
 }
+```
 
 3. Create the Chat Screen
 
@@ -107,6 +118,8 @@ class _ChatAppState extends ConsumerState<ChatApp> {
     );
   }
 }
+```
+
 ⚙️ Configuration Options
 You can tweak scrolling behavior and thresholds easily:
 
@@ -150,6 +163,8 @@ FlutterListView(
     childCount: state.messages.length,
   ),
 );
+```
+
 🧰 Advanced Example: Preloading Logic
 You can enable preload offset to stop pagination after a specific page count:
 
@@ -161,18 +176,23 @@ controller = ChatPaginationController(
     ...
   },
 );
+```
+
 🧼 Resetting the Chat
 
 ```dart
 controller.reset(); // Clears messages and resets the current page
+```
 
 📦 Folder Structure
 
-```dart
+```vbnet
 lib/
 ├── chat_pagination_controller.dart
 ├── chat_pagination_notifier.dart
 └── chat_pagination_view.dart
+```
+
 💬 Future Plans
 ✅ Bidirectional pagination (load older & newer messages)
 
