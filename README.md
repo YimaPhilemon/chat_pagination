@@ -5,8 +5,8 @@
   <a href="https://github.com/YimaPhilemon/chat_pagination/stargazers">
     <img src="https://img.shields.io/github/stars/YimaPhilemon/chat_pagination?style=flat&logo=github&colorB=green&label=stars" alt="GitHub stars">
   </a>                    
-  <a href="https://pub.dev/packages/chat_pagination">
-    <img src="https://img.shields.io/pub/v/chat_pagination.svg?label=pub&color=orange" alt="pub version">
+  <a href="https://pub.dev/packages/flutter_chat_pagination">
+    <img src="https://img.shields.io/pub/v/flutter_chat_pagination.svg?label=pub&color=orange" alt="pub version">
   </a>                    
 </p>
                  
@@ -70,8 +70,7 @@ ChatPaginationNotifier	StateNotifier	Manages message state, loading, and paginat
 1. Import dependencies
 
 ```dart
-import 'package:flutter_chat_pagination/chat_pagination_controller.dart';
-import 'package:flutter_chat_pagination/chat_pagination_view.dart';
+import 'package:flutter_chat_paginator/flutter_chat_paginator.dart';
 ```
 
 2. Initialize in your main app
