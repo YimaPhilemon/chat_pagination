@@ -1,7 +1,7 @@
 name: flutter_chat_paginator
 description: A powerful and lightweight chat pagination system built for Flutter, designed for smooth infinite scrolling and state management with Riverpod
 version: 0.0.1
-homepage:
+homepage: https://github.com/YimaPhilemon/chat_pagination
 
 environment:
   sdk: ^3.7.2
