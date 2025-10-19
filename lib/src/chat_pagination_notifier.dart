@@ -1,4 +1,4 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_riverpod/legacy.dart';
 
 /// Represents the current state of the chat pagination system.
 /// Holds all messages, loading state, pagination progress, etc.
